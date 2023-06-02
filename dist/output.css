@@ -558,6 +558,15 @@ html{
   height: 100vh;
 }
 
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.h-full {
+  height: 100%;
+}
+
 .w-6\/12 {
   width: 50%;
 }
@@ -769,8 +778,16 @@ html{
     width: 100%;
   }
 
+  .sm\:w-auto {
+    width: auto;
+  }
+
   .sm\:justify-start {
     justify-content: flex-start;
+  }
+
+  .sm\:gap-y-5 {
+    row-gap: 1.25rem;
   }
 
   .sm\:py-10 {
@@ -798,6 +815,16 @@ html{
     padding-bottom: 2rem;
   }
 
+  .sm\:py-7 {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+  }
+
+  .sm\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
   .sm\:pt-8 {
     padding-top: 2rem;
   }
@@ -819,6 +846,15 @@ html{
 
   .md\:h-screen {
     height: 100vh;
+  }
+
+  .md\:h-fit {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
+  .md\:h-auto {
+    height: auto;
   }
 
   .md\:w-6\/12 {
@@ -847,6 +883,21 @@ html{
     padding-right: 5rem;
   }
 
+  .md\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .md\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .md\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
   .md\:text-left {
     text-align: left;
   }
@@ -866,6 +917,15 @@ html{
     height: 100vh;
   }
 
+  .lg\:h-fit {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
+  .lg\:h-auto {
+    height: auto;
+  }
+
   .lg\:w-6\/12 {
     width: 50%;
   }
@@ -882,6 +942,10 @@ html{
     row-gap: 1rem;
   }
 
+  .lg\:gap-y-6 {
+    row-gap: 1.5rem;
+  }
+
   .lg\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -890,6 +954,31 @@ html{
   .lg\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+
+  .lg\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .lg\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .lg\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .lg\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .lg\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
   }
 
   .lg\:text-left {

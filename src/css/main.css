@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-html{
-    font-family: 'Varela Round', sans-serif;
-}
-
 .text {
   background: linear-gradient(to right, #11998e, #38ef7d);
   background-size: 400%;

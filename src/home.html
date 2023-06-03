@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/src/css/main.css">
+    <link rel="stylesheet" href="/src/css/main.css" />
     <link rel="stylesheet" href="/src/css/input.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,6 +12,12 @@
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Varela+Round&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   </head>
   <body class="pb-20">
     <section
@@ -31,8 +37,13 @@
           <div class="second w-6 h-1 bg-green-600 mt-2 rounded"></div>
         </div>
 
-        <nav class="navbar lg:block md:block sm:hidden duration-500 ease-in-out">
-          <span class="close cursor-pointer lg:hidden md:hidden sm:block absolute top-10 right-10 text-3xl font-bold text-slate-700">X</span>
+        <nav
+          class="navbar lg:block md:block sm:hidden duration-500 ease-in-out"
+        >
+          <span
+            class="close cursor-pointer lg:hidden md:hidden sm:block absolute top-10 right-10 text-3xl font-bold text-slate-700"
+            >X</span
+          >
           <ul class="flex gap-x-6 text-gray-700">
             <li><a href="#">Home</a></li>
             <li><a href="#">About Us</a></li>
@@ -49,8 +60,12 @@
         </nav>
       </div>
 
-      <div class="text-center font-['Quicksand'] lg:w-[700px] md:w-3/4 sm:w-full">
-        <h1 class="font-bold lg:text-6xl md:text-6xl sm:text-5xl text-slate-700 pb-10">
+      <div
+        class="text-center font-['Quicksand'] lg:w-[700px] md:w-3/4 sm:w-full"
+      >
+        <h1
+          class="font-bold lg:text-6xl md:text-6xl sm:text-5xl text-slate-700 pb-10"
+        >
           Crezcamos juntos en un mundo limpio!
         </h1>
         <a
@@ -68,68 +83,137 @@
     </div>
 
     <section class="plants mt-10 w-full flex flex-col items-center">
-      <h2 class="text-center font-bold lg:text-6xl md:text-6xl sm:text-5xl text-slate-700">Últimas plantaciones</h2>
+      <h2
+        class="text-center font-bold lg:text-6xl md:text-6xl sm:text-5xl text-slate-700"
+      >
+        Últimas plantaciones
+      </h2>
 
       <div class="plants_wrapper mt-20 flex flex-wrap justify-center gap-10">
-
         <div class="box w-72 h-auto pb-4 rounded-xl bg-white shadow-md">
-          <img src="/src/img/cipress_tree.jpeg" class="w-full h-72 object-cover rounded-xl" alt="">
+          <img
+            src="/src/img/cipress_tree.jpeg"
+            class="w-full h-72 object-cover rounded-xl"
+            alt=""
+          />
           <div class="text-wrapper px-2 mt-4">
             <h5 class="text-lg font-bold text-slate-700">Gustavo Mejía</h5>
-            <p class="text-md font-medium text-green-600 -mt-1 font-['Quicksand']">Plantó un árbol de Cipress</p>
+            <p
+              class="text-md font-medium text-green-600 -mt-1 font-['Quicksand']"
+            >
+              Plantó un árbol de Cipress
+            </p>
 
             <div class="hour flex gap-2 items-center mt-3">
-              <img src="/src/img/clock.svg"alt="">
-              <span class="text-sm font-['Quicksand'] text-green-600 font-normal">5 minutes ago</span>
+              <img src="/src/img/clock.svg" alt="" />
+              <span
+                class="text-sm font-['Quicksand'] text-green-600 font-normal"
+                >5 minutes ago</span
+              >
             </div>
           </div>
         </div>
 
         <div class="box w-72 h-auto pb-4 rounded-xl bg-white shadow-md">
-          <img src="/src/img/mangle_arbol.jpeg" class="w-full h-72 object-cover rounded-xl" alt="">
+          <img
+            src="/src/img/mangle_arbol.jpeg"
+            class="w-full h-72 object-cover rounded-xl"
+            alt=""
+          />
           <div class="text-wrapper px-2 mt-4">
             <h5 class="text-lg font-bold text-slate-700">Gustavo Mejía</h5>
-            <p class="text-md font-medium text-green-600 -mt-1 font-['Quicksand']">Plantó un árbol de Mangle</p>
+            <p
+              class="text-md font-medium text-green-600 -mt-1 font-['Quicksand']"
+            >
+              Plantó un árbol de Mangle
+            </p>
 
             <div class="hour flex gap-2 items-center mt-3">
-              <img src="/src/img/clock.svg"alt="">
-              <span class="text-sm font-['Quicksand'] text-green-600 font-normal">5 minutes ago</span>
+              <img src="/src/img/clock.svg" alt="" />
+              <span
+                class="text-sm font-['Quicksand'] text-green-600 font-normal"
+                >5 minutes ago</span
+              >
             </div>
           </div>
         </div>
 
         <div class="box w-72 h-auto pb-4 rounded-xl bg-white shadow-md">
-          <img src="/src/img/mango_tree.webp" class="w-full h-72 object-cover rounded-xl" alt="">
+          <img
+            src="/src/img/mango_tree.webp"
+            class="w-full h-72 object-cover rounded-xl"
+            alt=""
+          />
           <div class="text-wrapper px-2 mt-4">
             <h5 class="text-lg font-bold text-slate-700">Gustavo Mejía</h5>
-            <p class="text-md font-medium text-green-600 -mt-1 font-['Quicksand']">Plantó un árbol de Mango</p>
+            <p
+              class="text-md font-medium text-green-600 -mt-1 font-['Quicksand']"
+            >
+              Plantó un árbol de Mango
+            </p>
 
             <div class="hour flex gap-2 items-center mt-3">
-              <img src="/src/img/clock.svg"alt="">
-              <span class="text-sm font-['Quicksand'] text-green-600 font-normal">5 minutes ago</span>
+              <img src="/src/img/clock.svg" alt="" />
+              <span
+                class="text-sm font-['Quicksand'] text-green-600 font-normal"
+                >5 minutes ago</span
+              >
             </div>
           </div>
         </div>
 
         <div class="box w-72 h-auto pb-4 rounded-xl bg-white shadow-md">
-          <img src="/src/img/taxodium_tree.jpeg" class="w-full h-72 object-cover rounded-xl" alt="">
+          <img
+            src="/src/img/taxodium_tree.jpeg"
+            class="w-full h-72 object-cover rounded-xl"
+            alt=""
+          />
           <div class="text-wrapper px-2 mt-4">
             <h5 class="text-lg font-bold text-slate-700">Gustavo Mejía</h5>
-            <p class="text-md font-medium text-green-600 -mt-1 font-['Quicksand']">Plantó un árbol de Taxodium</p>
+            <p
+              class="text-md font-medium text-green-600 -mt-1 font-['Quicksand']"
+            >
+              Plantó un árbol de Taxodium
+            </p>
 
             <div class="hour flex gap-2 items-center mt-3">
-              <img src="/src/img/clock.svg"alt="">
-              <span class="text-sm font-['Quicksand'] text-green-600 font-normal">5 minutes ago</span>
+              <img src="/src/img/clock.svg" alt="" />
+              <span
+                class="text-sm font-['Quicksand'] text-green-600 font-normal"
+                >5 minutes ago</span
+              >
             </div>
           </div>
         </div>
-
       </div>
 
-      <a class="mt-10 text-center py-3 px-10 bg-green-200 border-[3px] border-green-600 rounded-xl text-slate-700 font-bold">Descubre nuestro catalogo</a>
-      
+      <a
+        class="mt-10 text-center py-3 px-10 bg-green-200 border-[3px] border-green-600 rounded-xl text-slate-700 font-bold"
+        >Descubre nuestro catalogo</a
+      >
     </section>
 
+    <section class="about_us mt-24 flex">
+      <div class="swiper w-6/12 border-2 object-cover">
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="/src/img/voluntarios1.jpeg" alt=""></div>
+          <div class="swiper-slide"><img src="/src/img/voluntarios2.jpeg" alt=""></div>
+          <div class="swiper-slide"><img src="/src/img/voluntarios3.jpeg" alt=""></div>
+          <div class="swiper-slide"><img src="/src/img/voluntarios4.webp" alt=""></div>
+        </div>
+      </div>
+
+      <div class="text-about w-6/12">
+        <h2 class="text-6xl text-slate-700 font-bold">Sobre nosotros</h2>
+      </div>
+
+
+    </section>
+
+    <script type="module">
+      import Swiper from "https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js";
+    </script>
     <script src="/src/js/main.js"></script>
   </body>
 </html>

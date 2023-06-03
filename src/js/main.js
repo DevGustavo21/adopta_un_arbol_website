@@ -12,3 +12,15 @@ closeBtn.addEventListener('click', ()=>{
     nav.classList.remove('active_nav')
     donate.style.display='inline'
 })
+
+const swiper = new Swiper('.swiper', {
+
+    autoplay: {
+        delay:4000,
+    },
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+
+  
+  });

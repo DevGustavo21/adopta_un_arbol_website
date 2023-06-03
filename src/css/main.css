@@ -77,3 +77,20 @@
 background: rgba( 255, 255, 255, 0.25 );
 backdrop-filter: blur( 7px );
 }
+
+.swiper{
+  width: 600px;
+  height: 600px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -13,12 +13,12 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="pb-20">
     <section
       class="banner bg-[url('/src/img/banner2.webp')] lg:py-80 md:py-72 sm:py-64 bg-cover bg-no-repeat bg-center flex flex-col justify-center items-center"
     >
       <div
-        class="navigator flex justify-between lg:px-14 md:px-10 sm:px-5 py-6 items-center fixed top-0 w-full"
+        class="navigator flex justify-between lg:px-14 md:px-10 sm:px-5 py-6 items-center fixed top-0 w-full z-50"
       >
         <img
           src="./img/logo.png"
@@ -36,7 +36,7 @@
           <ul class="flex gap-x-6 text-gray-700">
             <li><a href="#">Home</a></li>
             <li><a href="#">About Us</a></li>
-            <li><a href="#">Donators</a></li>
+            <li><a href="#">Voluntarios</a></li>
             <li><a href="#"></a></li>
             <div>
               <a
@@ -61,8 +61,73 @@
       </div>
     </section>
 
-    <section class="about">
+    <div class="separator flex items-center gap-x-5 mt-10 justify-center">
+      <div class="w-5/12 h-[1px] bg-green-600"></div>
+      <div class="text-3xl">🌳</div>
+      <div class="w-5/12 h-[1px] bg-green-600"></div>
+    </div>
 
+    <section class="plants mt-10 w-full flex flex-col items-center">
+      <h2 class="text-center font-bold lg:text-6xl md:text-6xl sm:text-5xl text-slate-700">Últimas plantaciones</h2>
+
+      <div class="plants_wrapper mt-20 flex flex-wrap justify-center gap-10">
+
+        <div class="box w-72 h-auto pb-4 rounded-xl bg-white shadow-md">
+          <img src="/src/img/cipress_tree.jpeg" class="w-full h-72 object-cover rounded-xl" alt="">
+          <div class="text-wrapper px-2 mt-4">
+            <h5 class="text-lg font-bold text-slate-700">Gustavo Mejía</h5>
+            <p class="text-md font-medium text-green-600 -mt-1 font-['Quicksand']">Plantó un árbol de Cipress</p>
+
+            <div class="hour flex gap-2 items-center mt-3">
+              <img src="/src/img/clock.svg"alt="">
+              <span class="text-sm font-['Quicksand'] text-green-600 font-normal">5 minutes ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box w-72 h-auto pb-4 rounded-xl bg-white shadow-md">
+          <img src="/src/img/mangle_arbol.jpeg" class="w-full h-72 object-cover rounded-xl" alt="">
+          <div class="text-wrapper px-2 mt-4">
+            <h5 class="text-lg font-bold text-slate-700">Gustavo Mejía</h5>
+            <p class="text-md font-medium text-green-600 -mt-1 font-['Quicksand']">Plantó un árbol de Mangle</p>
+
+            <div class="hour flex gap-2 items-center mt-3">
+              <img src="/src/img/clock.svg"alt="">
+              <span class="text-sm font-['Quicksand'] text-green-600 font-normal">5 minutes ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box w-72 h-auto pb-4 rounded-xl bg-white shadow-md">
+          <img src="/src/img/mango_tree.webp" class="w-full h-72 object-cover rounded-xl" alt="">
+          <div class="text-wrapper px-2 mt-4">
+            <h5 class="text-lg font-bold text-slate-700">Gustavo Mejía</h5>
+            <p class="text-md font-medium text-green-600 -mt-1 font-['Quicksand']">Plantó un árbol de Mango</p>
+
+            <div class="hour flex gap-2 items-center mt-3">
+              <img src="/src/img/clock.svg"alt="">
+              <span class="text-sm font-['Quicksand'] text-green-600 font-normal">5 minutes ago</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box w-72 h-auto pb-4 rounded-xl bg-white shadow-md">
+          <img src="/src/img/taxodium_tree.jpeg" class="w-full h-72 object-cover rounded-xl" alt="">
+          <div class="text-wrapper px-2 mt-4">
+            <h5 class="text-lg font-bold text-slate-700">Gustavo Mejía</h5>
+            <p class="text-md font-medium text-green-600 -mt-1 font-['Quicksand']">Plantó un árbol de Taxodium</p>
+
+            <div class="hour flex gap-2 items-center mt-3">
+              <img src="/src/img/clock.svg"alt="">
+              <span class="text-sm font-['Quicksand'] text-green-600 font-normal">5 minutes ago</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="mt-10 text-center py-3 px-10 bg-green-200 border-[3px] border-green-600 rounded-xl text-slate-700 font-bold">Descubre nuestro catalogo</a>
+      
     </section>
 
     <script src="/src/js/main.js"></script>

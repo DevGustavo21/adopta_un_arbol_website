@@ -21,10 +21,11 @@
   </head>
   <body class="pb-20">
     <section
+      id="home"
       class="banner bg-[url('/src/img/banner2.webp')] lg:py-80 md:py-72 sm:py-64 bg-cover bg-no-repeat bg-center flex flex-col justify-center items-center"
     >
       <div
-        class="navigator flex justify-between lg:px-14 md:px-10 sm:px-5 py-6 items-center fixed top-0 w-full z-50"
+        class="navigator flex justify-between lg:px-14 md:px-10 sm:px-5 py-4 items-center fixed top-0 w-full z-50"
       >
         <img
           src="./img/logo.png"
@@ -45,10 +46,9 @@
             >X</span
           >
           <ul class="flex gap-x-6 text-gray-700">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Voluntarios</a></li>
-            <li><a href="#"></a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#voluntarios">Volunteers</a></li>
             <div>
               <a
                 href="/src/login.html"
@@ -121,7 +121,7 @@
             alt=""
           />
           <div class="text-wrapper px-2 mt-4">
-            <h5 class="text-lg font-bold text-slate-700">Gustavo Mejía</h5>
+            <h5 class="text-lg font-bold text-slate-700">José Perez</h5>
             <p
               class="text-md font-medium text-green-600 -mt-1 font-['Quicksand']"
             >
@@ -132,7 +132,7 @@
               <img src="/src/img/clock.svg" alt="" />
               <span
                 class="text-sm font-['Quicksand'] text-green-600 font-normal"
-                >5 minutes ago</span
+                >30 minutes ago</span
               >
             </div>
           </div>
@@ -145,7 +145,7 @@
             alt=""
           />
           <div class="text-wrapper px-2 mt-4">
-            <h5 class="text-lg font-bold text-slate-700">Gustavo Mejía</h5>
+            <h5 class="text-lg font-bold text-slate-700">Aynat Cortez</h5>
             <p
               class="text-md font-medium text-green-600 -mt-1 font-['Quicksand']"
             >
@@ -156,7 +156,7 @@
               <img src="/src/img/clock.svg" alt="" />
               <span
                 class="text-sm font-['Quicksand'] text-green-600 font-normal"
-                >5 minutes ago</span
+                >1 hour ago</span
               >
             </div>
           </div>
@@ -169,7 +169,7 @@
             alt=""
           />
           <div class="text-wrapper px-2 mt-4">
-            <h5 class="text-lg font-bold text-slate-700">Gustavo Mejía</h5>
+            <h5 class="text-lg font-bold text-slate-700">Carlos Centeno</h5>
             <p
               class="text-md font-medium text-green-600 -mt-1 font-['Quicksand']"
             >
@@ -180,7 +180,7 @@
               <img src="/src/img/clock.svg" alt="" />
               <span
                 class="text-sm font-['Quicksand'] text-green-600 font-normal"
-                >5 minutes ago</span
+                >1 hour ago</span
               >
             </div>
           </div>
@@ -193,23 +193,99 @@
       >
     </section>
 
-    <section class="about_us mt-24 flex">
-      <div class="swiper w-6/12 border-2 object-cover">
+    <section id="about" class="about_us mt-24 flex flex-wrap">
+      <div class="swiper lg:w-6/12 md:w-6/12 sm:w-full object-cover">
         <div class="swiper-wrapper">
           <!-- Slides -->
-          <div class="swiper-slide"><img src="/src/img/voluntarios1.jpeg" alt=""></div>
-          <div class="swiper-slide"><img src="/src/img/voluntarios2.jpeg" alt=""></div>
-          <div class="swiper-slide"><img src="/src/img/voluntarios3.jpeg" alt=""></div>
-          <div class="swiper-slide"><img src="/src/img/voluntarios4.webp" alt=""></div>
+          <div class="swiper-slide">
+            <img src="/src/img/voluntarios1.jpeg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/src/img/voluntarios2.jpeg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/src/img/voluntarios3.jpeg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/src/img/voluntarios4.webp" alt="" />
+          </div>
         </div>
       </div>
 
-      <div class="text-about w-6/12">
-        <h2 class="text-6xl text-slate-700 font-bold">Sobre nosotros</h2>
+      <div
+        class="flex flex-col lg:items-start md:items-center sm:items-center text-about lg:w-6/12 md:w-full sm:w-full lg:text-left md:text-center sm:text-center lg:mt-0 md:mt-10 sm:mt-10"
+      >
+        <h2
+          class="lg:text-6xl md:text-6xl sm:text-5xl text-slate-700 font-bold"
+        >
+          Sobre nosotros
+        </h2>
+        <p
+          class="lg:pr-14 md:pr-0 sm:px-2 mt-10 leading-7 font-['Quicksand'] font-normal text-gray-600"
+        >
+          Nuestro principal objetivo sobre este proyecto es aportar un granito
+          de nuestra arena para fortalecer nuestro medio ambiente. Ya que al
+          pasar de los últimos años la vida de nuestro ecosistema se ha visto
+          afectado. <br /><br />
+
+          Hemos formado un equipo sólido conformado por diferentes personas
+          voluntarias para este trabajo, contamos con voluntarios que se
+          encargan de plantar el arbol que tu aportas desde nuestro sitio web,
+          contamos con ingenieros encargados de mantenerte al tanto de nuestros
+          actividades de plantación, entre otras áreas que al igual son
+          importantes para poder lograr con éxito este objetivo,
+          <span class="text-green-600 font-bold">
+            el salvar nuestro planeta.</span
+          >
+          <br /><br />
+
+          Así que con tu aporte y con el nuestro queremos extender la vida de
+          nuestro medio ambiente <span class="text-2xl">🌱</span>
+        </p>
+
+        <a
+          href="#"
+          class="mt-10 text-center py-3 px-10 bg-green-200 border-[3px] border-green-600 rounded-xl text-slate-700 font-bold"
+          >Quiero ser voluntario</a
+        >
       </div>
-
-
     </section>
+
+    <div class="separator flex items-center gap-x-5 mt-10 justify-center">
+      <div class="w-5/12 h-[1px] bg-green-600"></div>
+      <div class="text-3xl">🪴</div>
+      <div class="w-5/12 h-[1px] bg-green-600"></div>
+    </div>
+
+    <section class="mt-10 flex flex-col items-center">
+      <h2
+        class="text-center font-bold lg:text-6xl md:text-6xl sm:text-5xl text-slate-700"
+      >
+      Cómo puedes plantar un árbol?
+      </h2>
+
+      <div class="wrapper-box flex flex-wrap w-5/6 shadow-xl rounded-lg h-auto mt-10">
+        <div class="image w-6/12 inset-0">
+          <img src="/src/img/voluntario5.jpeg" class="rounded-xl" alt="">
+        </div>
+
+        <div class="text-info w-6/12 py-8 px-10">
+          <h5 class="text-xl font-bold text-slate-700">Sigue nuestros pasos correctamente</h5>
+
+          <ol class="mt-10 font-['Quicksand'] font-medium text-slate-700 flex flex-col gap-y-3">
+            <li>👉 Primero debes iniciar sesión, si no has iniciado sesion, <span class="text-green-600"><a href="#">haz click aquí.</a></span></li>
+            <li>👉 Si no posees cuenta, te invitamos a registrate, <span class="text-green-600"><a href="#">registrate aquí.</a></span></li>
+            <li>👉 Ya con sesion iniciada, busca nuestro catalogo de plantas disponibles.</li>
+            <li>👉 Ya habiendo seleccionado la planta, se te abrirá otra pestaña en donde se te dará la opción de donar dinero (no es obligatorio).</li>
+            <li>👉 Pasando u omitiendo el proceso de donación se te enviará un mensaje de confirmación de que tu árbol en los proximos dias será plantado.</li>
+            <li>👉 Nuestro equipo menos de 72 horas te hará llegar un correo confirmando que tu arbol fue plantado con una foto de evidencia</li>
+            <li>👉 Para finalizar nuestro proceso, te haremos llegar hasta tu hogar una regalía de una pulsera con el plástico reciclado</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="voluntarios" class=""></section>
 
     <script type="module">
       import Swiper from "https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js";

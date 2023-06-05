@@ -23,15 +23,13 @@ const swiper = new Swiper('.swiper', {
     loop: true,
   });
 
-  
+
   function showImage(img) {
     img.classList.remove('hide-image');
     var skeleton = img.previousElementSibling;
     skeleton.style.display = 'none';
   }
   
-  
-
   document.addEventListener('DOMContentLoaded', function() {
     let skeletonElement = document.querySelector('.skeleton');
     skeletonElement.style.display = 'none';
